@@ -75,6 +75,7 @@ struct ContentView: View {
                         // MARK1
                         .scaleEffect(self.scale)
                         .frame(width: self.size.width * self.scale, height:  self.size.height * self.scale)
+                        .padding(EdgeInsets(top: 0, leading: 20, bottom: 0, trailing: 20))
                 }
                 .gesture(
                     MagnificationGesture()
